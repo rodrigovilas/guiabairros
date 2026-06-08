@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serviços - Guia Diadema</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">D</div>
+                Guia Diadema
+            </a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="categorias.html" class="nav-link active">Serviços</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Alternar Tema">🌙</button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="details-header" style="padding: 10rem 0 3rem;">
+        <div class="container text-center animate-fade-in">
+            <h1 class="title-md">Catálogo de Serviços</h1>
+            <p class="text-muted" style="color: rgba(255,255,255,0.8);">Encontre facilmente as unidades de atendimento em Diadema.</p>
+        </div>
+    </section>
+
+    <!-- Content -->
+    <section class="section">
+        <div class="container" style="display: flex; flex-direction: column; gap: 2.5rem; margin-top: -2rem;">
+            
+            <!-- Global Search & Filters -->
+            <div class="animate-fade-in delay-100">
+                <div class="info-card" style="padding: 1.5rem; display: flex; flex-direction: column; gap: 1.5rem;">
+                    
+                    <!-- Search & Bairro -->
+                    <div style="display: grid; grid-template-columns: 2fr 1fr; gap: 1rem;">
+                        <div class="search-wrapper" style="margin: 0; max-width: 100%;">
+                            <input type="text" id="global-search" class="search-input" placeholder="Buscar por palavra-chave (ex: Vacina, RG, Escola)...">
+                        </div>
+                        <div style="position: relative;">
+                            <select id="bairro-filter" style="width: 100%; height: 100%; border-radius: var(--radius-full); border: 1px solid var(--border); padding: 0 1.5rem; background: var(--surface); color: var(--text-main); font-family: var(--font-text); outline: none; appearance: none; box-shadow: var(--shadow-sm);">
+                                <option value="todos">Todos os Bairros</option>
+                                <option value="Centro">Centro</option>
+                                <option value="Conceição">Conceição</option>
+                                <option value="Eldorado">Eldorado</option>
+                                <option value="Inamar">Inamar</option>
+                                <option value="Serraria">Serraria</option>
+                                <option value="Vila Nogueira">Vila Nogueira</option>
+                                <option value="Piraporinha">Piraporinha</option>
+                                <option value="Casa Grande">Casa Grande</option>
+                                <option value="Canhema">Canhema</option>
+                                <option value="Campanário">Campanário</option>
+                                <option value="Taboão">Taboão</option>
+                            </select>
+                            <span style="position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); pointer-events: none; color: var(--text-muted);">▼</span>
+                        </div>
+                    </div>
+
+                    <hr style="border: none; border-top: 1px solid var(--border); margin: 0.5rem 0;">
+
+                    <!-- Categories -->
+                    <div>
+                        <h3 class="font-bold text-center" style="margin-bottom: 1rem; font-size: 1rem;">Filtrar por Categoria</h3>
+                        <div class="filter-group" style="display: flex; flex-wrap: wrap; gap: 0.75rem; justify-content: center;">
+                            <a href="#" class="btn btn-primary filter-btn" data-filter="todas" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Todas</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="saude" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Saúde</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="educacao" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Educação</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="assistencia" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Assistência Social</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="seguranca" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Segurança</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="cidadao" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Cidadão</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="mobilidade" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Mobilidade</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="meioambiente" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Meio Ambiente</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="cultura" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Cultura</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="esporte" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Esporte</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="habitacao" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Habitação</a>
+                            <a href="#" class="btn btn-outline filter-btn" data-filter="emprego" style="padding: 0.4rem 1rem; font-size: 0.85rem;">Emprego e Renda</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main List (Populated via JS) -->
+            <main id="services-container" class="service-list animate-fade-in delay-200">
+                <!-- Javascript will inject cards here -->
+                <div style="text-align: center; padding: 3rem; color: var(--text-muted);">
+                    Carregando serviços...
+                </div>
+            </main>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+                <p>&copy; 2026 Guia Digital de Serviços - Protótipo Demonstrativo.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Serviço - Guia Diadema</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <style>
+        .photo-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        .photo-item {
+            width: 100%;
+            height: 120px;
+            object-fit: cover;
+            border-radius: var(--radius-md);
+            border: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">D</div>
+                Guia Diadema
+            </a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html" class="nav-link">Início</a>
+                <a href="categorias.html" class="nav-link active">Serviços</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Alternar Tema">🌙</button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Details Header -->
+    <section class="details-header">
+        <div class="container animate-fade-in">
+            <a href="categorias.html" style="display: inline-flex; align-items: center; gap: 0.5rem; color: white; margin-bottom: 1rem; opacity: 0.8;">
+                ← Voltar para Serviços
+            </a>
+            <div id="det-categoria" style="display: inline-block; background: rgba(255,255,255,0.2); color: white; padding: 0.25rem 1rem; border-radius: var(--radius-full); font-size: 0.8rem; font-weight: 600; margin-bottom: 1rem;">
+                Carregando...
+            </div>
+            <h1 class="title-md" id="det-titulo">Carregando Serviço...</h1>
+            <p class="text-muted" id="det-desc" style="max-width: 600px; font-size: 1.1rem;">
+                Aguarde...
+            </p>
+        </div>
+    </section>
+
+    <!-- Details Content -->
+    <section class="section" id="det-content" style="display: none;">
+        <div class="container details-content">
+            
+            <!-- Main Info -->
+            <main class="details-main animate-fade-in delay-100">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 1.5rem;">
+                    <h2 class="font-bold">Informações do Serviço</h2>
+                    <button id="btn-share" class="btn btn-outline" style="padding: 0.4rem 1rem; font-size: 0.9rem;">🔗 Compartilhar</button>
+                </div>
+                
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div>
+                        <h4 class="font-bold">Endereço</h4>
+                        <p class="text-muted" id="det-endereco"></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">⏰</div>
+                    <div>
+                        <h4 class="font-bold">Horário de Funcionamento</h4>
+                        <p class="text-muted" id="det-horario"></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div>
+                        <h4 class="font-bold">Telefone de Contato</h4>
+                        <p class="text-muted" id="det-telefone"></p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">📧</div>
+                    <div>
+                        <h4 class="font-bold">E-mail</h4>
+                        <p class="text-muted" id="det-email"></p>
+                    </div>
+                </div>
+
+                <!-- Photos -->
+                <div style="margin-top: 3rem; padding-top: 2rem; border-top: 1px solid var(--border);">
+                    <h3 class="font-bold" style="margin-bottom: 1rem;">Fotos da Unidade</h3>
+                    <div class="photo-gallery" id="det-fotos">
+                        <!-- Fotos via JS -->
+                    </div>
+                </div>
+            </main>
+
+            <!-- Sidebar Info (Map) -->
+            <aside class="details-sidebar animate-fade-in delay-200">
+                <div class="info-card" style="text-align: center;">
+                    <h3 class="font-bold" style="margin-bottom: 1rem;">Localização</h3>
+                    
+                    <div class="map-container" style="margin-bottom: 1.5rem;">
+                        <div class="map-placeholder" id="det-bairro-mapa">
+                            Mapa
+                        </div>
+                    </div>
+
+                    <a href="#" id="det-mapa-btn" target="_blank" class="btn btn-primary" style="width: 100%;">
+                        📍 Traçar Rota no Google Maps
+                    </a>
+                </div>
+
+                <div class="info-card">
+                    <h3 class="font-bold" style="margin-bottom: 1rem;">Avaliação do Usuário</h3>
+                    <div style="font-size: 2rem; font-weight: bold; color: var(--text-main); margin-bottom: 0.5rem;" id="det-nota">
+                        4.0
+                    </div>
+                    
+                    <div id="det-estrelas" style="display: flex; gap: 0.5rem; font-size: 1.5rem; color: #FBBF24; cursor: pointer; justify-content: center; margin-bottom: 1rem;">
+                        <!-- Estrelas JS -->
+                    </div>
+                    
+                    <button class="btn btn-outline" style="width: 100%;">Deixar uma Avaliação</button>
+                </div>
+            </aside>
+
+        </div>
+    </section>
+
+    <div class="container text-center text-muted" id="det-error" style="display: none; padding: 5rem 0;">
+        <h2 class="font-bold">Serviço não encontrado.</h2>
+        <a href="categorias.html" class="btn btn-primary" style="margin-top: 2rem;">Ver Todos os Serviços</a>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+                <p>&copy; 2026 Guia Digital de Serviços - Protótipo Demonstrativo.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

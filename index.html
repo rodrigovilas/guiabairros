@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guia Digital de Serviços - Diadema</title>
+    <meta name="description" content="Portal centralizado de serviços públicos de Diadema. Saúde, Educação, Segurança e muito mais.">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">D</div>
+                Guia Diadema
+            </a>
+            
+            <nav class="nav-links" id="nav-links">
+                <a href="index.html" class="nav-link active">Início</a>
+                <a href="categorias.html" class="nav-link">Serviços</a>
+                <a href="#destaques" class="nav-link">Destaques</a>
+                <a href="#telefones" class="nav-link">Telefones Úteis</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Alternar Tema">🌙</button>
+                <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Menu">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="container">
+            <div class="hero-content animate-fade-in">
+                <h1 class="title-lg">Todos os serviços de <span class="text-primary">Diadema</span> em um só lugar.</h1>
+                <p class="hero-subtitle">Encontre unidades de saúde, escolas, delegacias e muito mais com facilidade e rapidez.</p>
+                
+                <form class="search-wrapper" id="search-form">
+                    <input type="text" id="search-input" class="search-input" placeholder="O que você está procurando? (Ex: UBS, Escola, IPTU)" required>
+                    <button type="submit" class="search-btn" aria-label="Buscar">🔍</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="section" id="categorias">
+        <div class="container">
+            <div class="text-center animate-fade-in delay-100">
+                <h2 class="title-md">Categorias de Serviços</h2>
+                <p class="text-muted">Navegue pelas principais áreas de atendimento ao cidadão.</p>
+            </div>
+
+            <div class="categories-grid">
+                <a href="categorias.html?cat=saude" class="category-card animate-fade-in delay-200">
+                    <div class="category-icon">🏥</div>
+                    <h3 class="font-bold">Saúde</h3>
+                    <p class="text-muted text-sm">UBSs, Hospitais, Farmácias</p>
+                </a>
+                
+                <a href="categorias.html?cat=educacao" class="category-card animate-fade-in delay-200">
+                    <div class="category-icon">📚</div>
+                    <h3 class="font-bold">Educação</h3>
+                    <p class="text-muted text-sm">Escolas, Creches, Bibliotecas</p>
+                </a>
+
+                <a href="categorias.html?cat=seguranca" class="category-card animate-fade-in delay-300">
+                    <div class="category-icon">🚓</div>
+                    <h3 class="font-bold">Segurança</h3>
+                    <p class="text-muted text-sm">GCM, Delegacias, Defesa Civil</p>
+                </a>
+
+                <a href="categorias.html?cat=mobilidade" class="category-card animate-fade-in delay-300">
+                    <div class="category-icon">🚌</div>
+                    <h3 class="font-bold">Mobilidade Urbana</h3>
+                    <p class="text-muted text-sm">Ônibus, Terminais, Trânsito</p>
+                </a>
+
+                <a href="categorias.html?cat=assistencia" class="category-card animate-fade-in delay-300">
+                    <div class="category-icon">🤝</div>
+                    <h3 class="font-bold">Assistência Social</h3>
+                    <p class="text-muted text-sm">CRAS, CREAS, Programas</p>
+                </a>
+
+                <a href="categorias.html?cat=cidadao" class="category-card animate-fade-in delay-300">
+                    <div class="category-icon">📄</div>
+                    <h3 class="font-bold">Serviços ao Cidadão</h3>
+                    <p class="text-muted text-sm">Poupatempo, Prefeitura</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="logo" style="margin-bottom: 1rem;">
+                        <div class="logo-icon">D</div>
+                        Guia Diadema
+                    </div>
+                    <p class="text-muted">Seu portal digital para facilitar o acesso aos serviços públicos da cidade de Diadema.</p>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>Acesso Rápido</h4>
+                    <div class="footer-links">
+                        <a href="index.html">Início</a>
+                        <a href="categorias.html">Todos os Serviços</a>
+                        <a href="#">Sobre o Projeto</a>
+                        <a href="#">Acessibilidade</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Canais de Atendimento</h4>
+                    <div class="footer-links">
+                        <a href="#">📞 156 - Central de Atendimento</a>
+                        <a href="#">🚓 153 - Guarda Civil (GCM)</a>
+                        <a href="#">🚑 192 - SAMU</a>
+                        <a href="#">📧 contato@diadema.sp.gov.br</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Guia Digital de Serviços - Protótipo Demonstrativo. Não oficial.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
