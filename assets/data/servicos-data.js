@@ -1,4 +1,4 @@
-[
+﻿var SERVICOS_DATA = [
   {
     "id": "ubs-centro",
     "nome": "UBS Centro",
@@ -1309,4 +1309,4 @@
       "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80"
     ]
   }
-]
+];
