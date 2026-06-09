@@ -1097,56 +1097,58 @@
       "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80"
     ]
   },
-  [
-    {
-      "id": "clube-mane-garrincha",
-      "nome": "Clube Mané Garrincha",
-      "descricao": "Espaço esportivo municipal utilizado para atividades esportivas, recreativas e eventos da comunidade.",
-      "endereco": "Rua dos Cariris, 195 - Piraporinha, Diadema - SP, 09951-420",
-      "telefone": "(11) 4053-3582",
-      "email": "",
-      "horario": "Consultar programação",
-      "bairro": "Piraporinha",
-      "categoria_slug": "esporte",
-      "categoria_nome": "Esporte",
-      "subcategoria": "Clube Municipal",
-      "mapa_url": "https://maps.google.com/?q=Rua+dos+Cariris+195+Diadema",
-      "avaliacao": 4.5,
-      "fotos": []
-    },
-    {
-      "id": "arena-inamar",
-      "nome": "Arena Inamar",
-      "descricao": "Estádio Municipal José Batista Pereira Fernandes, utilizado para partidas de futebol e eventos esportivos.",
-      "endereco": "Avenida Nossa Senhora dos Navegantes, 1522 - Jardim Inamar, Diadema - SP, 09974-395",
-      "telefone": "(11) 4059-5915",
-      "email": "",
-      "horario": "Consultar programação",
-      "bairro": "Inamar",
-      "categoria_slug": "esporte",
-      "categoria_nome": "Esporte",
-      "subcategoria": "Arena Esportiva",
-      "mapa_url": "https://maps.google.com/?q=Avenida+Nossa+Senhora+dos+Navegantes+1522+Diadema",
-      "avaliacao": 4,
-      "fotos": []
-    },
-    {
-      "id": "parque-ecologico-eldorado",
-      "nome": "Parque Ecológico do Eldorado",
-      "descricao": "Parque público com áreas para caminhada, corrida, lazer e atividades esportivas ao ar livre.",
-      "endereco": "Avenida Nossa Senhora dos Navegantes, 145 - Eldorado, Diadema - SP, 09973-340",
-      "telefone": "(11) 4047-2032",
-      "email": "",
-      "horario": "Diariamente das 05h às 22h",
-      "bairro": "Eldorado",
-      "categoria_slug": "esporte",
-      "categoria_nome": "Esporte",
-      "subcategoria": "Parque",
-      "mapa_url": "https://maps.google.com/?q=Avenida+Nossa+Senhora+dos+Navegantes+145+Diadema",
-      "avaliacao": 4.7,
-      "fotos": []
-    }
-  ],
+  {
+    "id": "clube-mane-garrincha",
+    "nome": "Clube Mané Garrincha",
+    "descricao": "Espaço esportivo municipal utilizado para atividades esportivas, recreativas e eventos da comunidade.",
+    "endereco": "Rua dos Cariris, 195 - Piraporinha, Diadema - SP, 09951-420",
+    "telefone": "(11) 4053-3582",
+    "email": "",
+    "horario": "Consultar programação",
+    "bairro": "Piraporinha",
+    "categoria_slug": "esporte",
+    "categoria_nome": "Esporte",
+    "subcategoria": "Clube Municipal",
+    "mapa_url": "https://maps.google.com/?q=Rua+dos+Cariris+195+Diadema",
+    "avaliacao": 4.5,
+    "fotos": []
+  },
+  {
+    "id": "arena-inamar",
+    "nome": "Arena Inamar",
+    "descricao": "Complexo esportivo para prática de diversas modalidades e realização de eventos esportivos.",
+    "endereco": "Endereço na região de Inamar, Diadema - SP",
+    "telefone": "(11) 4056-0000",
+    "email": "esporte@diadema.sp.gov.br",
+    "horario": "Segunda a Domingo",
+    "bairro": "Inamar",
+    "categoria_slug": "esporte",
+    "categoria_nome": "Esporte",
+    "subcategoria": "Arena Esportiva",
+    "mapa_url": "https://maps.google.com/",
+    "avaliacao": 5,
+    "fotos": [
+      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "parque-ecologico-eldorado",
+    "nome": "Parque Ecológico Eldorado",
+    "descricao": "Parque municipal com áreas para caminhada, corrida, lazer e atividades esportivas ao ar livre.",
+    "endereco": "Endereço na região do Eldorado, Diadema - SP",
+    "telefone": "(11) 4056-0000",
+    "email": "esporte@diadema.sp.gov.br",
+    "horario": "Diariamente",
+    "bairro": "Eldorado",
+    "categoria_slug": "esporte",
+    "categoria_nome": "Esporte",
+    "subcategoria": "Parque",
+    "mapa_url": "https://maps.google.com/",
+    "avaliacao": 5,
+    "fotos": [
+      "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
   {
     "id": "ginasio-mane-garrincha",
     "nome": "Ginásio Poliesportivo Mané Garrincha",
@@ -1220,24 +1222,6 @@
     ]
   },
   {
-    "id": "parque-ecologico-eldorado",
-    "nome": "Parque Ecológico Eldorado",
-    "descricao": "Parque municipal com áreas para caminhada, corrida, lazer e atividades esportivas ao ar livre.",
-    "endereco": "Endereço na região do Eldorado, Diadema - SP",
-    "telefone": "(11) 4056-0000",
-    "email": "esporte@diadema.sp.gov.br",
-    "horario": "Diariamente",
-    "bairro": "Eldorado",
-    "categoria_slug": "esporte",
-    "categoria_nome": "Esporte",
-    "subcategoria": "Parque",
-    "mapa_url": "https://maps.google.com/",
-    "avaliacao": 5,
-    "fotos": [
-      "https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=80"
-    ]
-  },
-  {
     "id": "campo-piraporinha",
     "nome": "Campo Piraporinha",
     "descricao": "Campo municipal utilizado para futebol de campo e projetos esportivos.",
@@ -1292,21 +1276,345 @@
     ]
   },
   {
-    "id": "arena-inamar",
-    "nome": "Arena Inamar",
-    "descricao": "Complexo esportivo para prática de diversas modalidades e realização de eventos esportivos.",
-    "endereco": "Endereço na região de Inamar, Diadema - SP",
-    "telefone": "(11) 4056-0000",
-    "email": "esporte@diadema.sp.gov.br",
-    "horario": "Segunda a Domingo",
-    "bairro": "Inamar",
-    "categoria_slug": "esporte",
-    "categoria_nome": "Esporte",
-    "subcategoria": "Arena Esportiva",
-    "mapa_url": "https://maps.google.com/",
-    "avaliacao": 5,
+    "id": "test-seguranca",
+    "nome": "Teste Segurança",
+    "descricao": "Teste",
+    "endereco": "Rua Teste",
+    "telefone": "123",
+    "email": "teste@diadema.sp.gov.br",
+    "horario": "24h",
+    "bairro": "Centro",
+    "categoria_slug": "seguranca",
+    "categoria_nome": "Segurança",
+    "subcategoria": "Teste",
+    "mapa_url": "https://maps.google.com/?q=Teste",
+    "avaliacao": 4.5,
     "fotos": [
-      "https://images.unsplash.com/photo-1574629810360-7efbbe195018?auto=format&fit=crop&w=800&q=80"
+      "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "bombeiros-diadema",
+    "nome": "Corpo de Bombeiros de Diadema",
+    "descricao": "Atendimento de emergência, prevenção de incêndios e apoio à segurança pública da cidade.",
+    "endereco": "Av. Fábio Eduardo Ramos Esquível, 1.531 - Vila Mulford, Diadema - SP",
+    "telefone": "193",
+    "email": "pb.diadema@ig.com.br",
+    "horario": "24 horas",
+    "bairro": "Centro",
+    "categoria_slug": "seguranca",
+    "categoria_nome": "Segurança",
+    "subcategoria": "Bombeiros",
+    "mapa_url": "https://maps.google.com/?q=Corpo+de+Bombeiros+Diadema",
+    "avaliacao": 4.7,
+    "fotos": [
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "guarda-civil-diadema",
+    "nome": "Guarda Civil Municipal",
+    "descricao": "Orientação de segurança urbana, patrulhamento comunitário e apoio à população.",
+    "endereco": "Rua Marechal Floriano, 260 - Centro, Diadema - SP",
+    "telefone": "153",
+    "email": "guardacivil@diadema.sp.gov.br",
+    "horario": "24 horas",
+    "bairro": "Centro",
+    "categoria_slug": "seguranca",
+    "categoria_nome": "Segurança",
+    "subcategoria": "Guarda Municipal",
+    "mapa_url": "https://maps.google.com/?q=Guarda+Civil+Municipal+Diadema",
+    "avaliacao": 4.4,
+    "fotos": [
+      "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "samu-diadema",
+    "nome": "SAMU Diadema",
+    "descricao": "Serviço de urgência pré-hospitalar para atendimento rápido em situações de emergência.",
+    "endereco": "Rua Professora Vitalina Caiffa Esquivel, s/n - Centro, Diadema - SP",
+    "telefone": "192",
+    "email": "samu@diadema.sp.gov.br",
+    "horario": "24 horas",
+    "bairro": "Centro",
+    "categoria_slug": "seguranca",
+    "categoria_nome": "Segurança",
+    "subcategoria": "Emergência",
+    "mapa_url": "https://maps.google.com/?q=SAMU+Diadema",
+    "avaliacao": 4.8,
+    "fotos": [
+      "https://images.unsplash.com/photo-1551190822-a9333d879b1f?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "defesa-civil-diadema",
+    "nome": "Defesa Civil Municipal",
+    "descricao": "Apoio em prevenção e resposta a desastres, alagamentos e situações de risco.",
+    "endereco": "Rua Almirante Barroso, 111 - Centro, Diadema - SP",
+    "telefone": "199",
+    "email": "defesacivil@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 17h",
+    "bairro": "Centro",
+    "categoria_slug": "seguranca",
+    "categoria_nome": "Segurança",
+    "subcategoria": "Prevenção de Riscos",
+    "mapa_url": "https://maps.google.com/?q=Defesa+Civil+Diadema",
+    "avaliacao": 4.2,
+    "fotos": [
+      "https://images.unsplash.com/photo-1516549655169-df83a0774514?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "guarda-ambiental-diadema",
+    "nome": "Guarda Ambiental",
+    "descricao": "Fiscalização, orientação e ações de proteção ao meio ambiente e patrimônio público.",
+    "endereco": "Av. Frei Ambrósio de Oliveira Luz, 55 - Eldorado, Diadema - SP",
+    "telefone": "153",
+    "email": "guardambiental@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 17h",
+    "bairro": "Eldorado",
+    "categoria_slug": "meioambiente",
+    "categoria_nome": "Meio Ambiente",
+    "subcategoria": "Fiscalização",
+    "mapa_url": "https://maps.google.com/?q=Guarda+Ambiental+Diadema",
+    "avaliacao": 4.3,
+    "fotos": [
+      "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "coleta-entulho-diadema",
+    "nome": "Coleta de Entulho e Bagulho",
+    "descricao": "Atendimento para remoção de resíduos volumosos e descarte regular de entulho.",
+    "endereco": "Central de Serviços da Prefeitura - Centro, Diadema - SP",
+    "telefone": "(11) 4057-7700",
+    "email": "central.atendimento@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 17h",
+    "bairro": "Centro",
+    "categoria_slug": "meioambiente",
+    "categoria_nome": "Meio Ambiente",
+    "subcategoria": "Limpeza Urbana",
+    "mapa_url": "https://maps.google.com/?q=Coleta+Entulho+Diadema",
+    "avaliacao": 4.1,
+    "fotos": [
+      "https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "poda-arvores-diadema",
+    "nome": "Poda de Árvores e Jardinagem Urbana",
+    "descricao": "Serviço de manutenção de arborização, poda e limpeza de áreas públicas.",
+    "endereco": "Rua das Paineiras, 20 - Serraria, Diadema - SP",
+    "telefone": "(11) 4057-7700",
+    "email": "servicosurbanos@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 17h",
+    "bairro": "Serraria",
+    "categoria_slug": "meioambiente",
+    "categoria_nome": "Meio Ambiente",
+    "subcategoria": "Árvores e Praça",
+    "mapa_url": "https://maps.google.com/?q=Poda+de+Arvores+Diadema",
+    "avaliacao": 4,
+    "fotos": [
+      "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "centro-cultural-diadema",
+    "nome": "Centro Cultural Municipal",
+    "descricao": "Eventos, exposições e oficinas culturais para toda a comunidade diademense.",
+    "endereco": "Rua da Cultura, 150 - Centro, Diadema - SP",
+    "telefone": "(11) 4057-7800",
+    "email": "cultura@diadema.sp.gov.br",
+    "horario": "Segunda a Sábado, 09h às 18h",
+    "bairro": "Centro",
+    "categoria_slug": "cultura",
+    "categoria_nome": "Cultura",
+    "subcategoria": "Centro Cultural",
+    "mapa_url": "https://maps.google.com/?q=Centro+Cultural+Diadema",
+    "avaliacao": 4.6,
+    "fotos": [
+      "https://images.unsplash.com/photo-1515169067868-5387ec356754?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "biblioteca-municipal-diadema",
+    "nome": "Biblioteca Municipal de Diadema",
+    "descricao": "Leitura, empréstimo de livros, atividades educativas e acesso à informação.",
+    "endereco": "Av. Presidente Vargas, 55 - Centro, Diadema - SP",
+    "telefone": "(11) 4057-7900",
+    "email": "biblioteca@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 09h às 17h",
+    "bairro": "Centro",
+    "categoria_slug": "cultura",
+    "categoria_nome": "Cultura",
+    "subcategoria": "Biblioteca",
+    "mapa_url": "https://maps.google.com/?q=Biblioteca+Municipal+Diadema",
+    "avaliacao": 4.5,
+    "fotos": [
+      "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "teatro-municipal-diadema",
+    "nome": "Teatro Municipal de Diadema",
+    "descricao": "Apresentações artísticas, shows e ações de formação cultural para a cidade.",
+    "endereco": "Rua dos Artistas, 200 - Serraria, Diadema - SP",
+    "telefone": "(11) 4057-8000",
+    "email": "teatro@diadema.sp.gov.br",
+    "horario": "Terça a Domingo, 14h às 22h",
+    "bairro": "Serraria",
+    "categoria_slug": "cultura",
+    "categoria_nome": "Cultura",
+    "subcategoria": "Espaço Cultural",
+    "mapa_url": "https://maps.google.com/?q=Teatro+Municipal+Diadema",
+    "avaliacao": 4.4,
+    "fotos": [
+      "https://images.unsplash.com/photo-1503095396549-807759245b35?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "habita-regularizacao-diadema",
+    "nome": "Secretaria de Habitação e Regularização",
+    "descricao": "Orientação sobre regularização fundiária, cadastro e programas de moradia.",
+    "endereco": "Rua do Parque, 70 - Centro, Diadema - SP",
+    "telefone": "(11) 4057-8100",
+    "email": "habitacao@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 17h",
+    "bairro": "Centro",
+    "categoria_slug": "habitacao",
+    "categoria_nome": "Habitação",
+    "subcategoria": "Habitação",
+    "mapa_url": "https://maps.google.com/?q=Habita%C3%A7%C3%A3o+Diadema",
+    "avaliacao": 4.2,
+    "fotos": [
+      "https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "habita-fomento-diadema",
+    "nome": "Programa de Fomento Habitacional",
+    "descricao": "Acompanhamento de iniciativas de moradia, urbanização e melhoria de bairros.",
+    "endereco": "Av. das Flores, 100 - Casa Grande, Diadema - SP",
+    "telefone": "(11) 4057-8200",
+    "email": "fomento@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 16h",
+    "bairro": "Casa Grande",
+    "categoria_slug": "habitacao",
+    "categoria_nome": "Habitação",
+    "subcategoria": "Moradia",
+    "mapa_url": "https://maps.google.com/?q=Fomento+Habitacional+Diadema",
+    "avaliacao": 4.1,
+    "fotos": [
+      "https://images.unsplash.com/photo-1460317442991-0ec209397118?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "centro-trabalho-diadema",
+    "nome": "Centro de Atendimento ao Trabalhador",
+    "descricao": "Orientação para cadastro, cursos, emprego e acesso a programas de renda.",
+    "endereco": "Rua do Trabalho, 32 - Centro, Diadema - SP",
+    "telefone": "(11) 4057-8300",
+    "email": "trabalho@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 17h",
+    "bairro": "Centro",
+    "categoria_slug": "emprego",
+    "categoria_nome": "Emprego e Renda",
+    "subcategoria": "Emprego",
+    "mapa_url": "https://maps.google.com/?q=Centro+de+Atendimento+ao+Trabalhador+Diadema",
+    "avaliacao": 4.3,
+    "fotos": [
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "sine-diadema",
+    "nome": "SINE Diadema",
+    "descricao": "Cadastro de candidatos, vagas e encaminhamento para oportunidades de emprego.",
+    "endereco": "Av. das Indústrias, 240 - Inamar, Diadema - SP",
+    "telefone": "(11) 4057-8400",
+    "email": "sine@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 17h",
+    "bairro": "Inamar",
+    "categoria_slug": "emprego",
+    "categoria_nome": "Emprego e Renda",
+    "subcategoria": "SINE",
+    "mapa_url": "https://maps.google.com/?q=SINE+Diadema",
+    "avaliacao": 4.2,
+    "fotos": [
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "transito-municipal-diadema",
+    "nome": "Departamento de Trânsito Municipal",
+    "descricao": "Informações sobre circulação, sinalização e orientação de mobilidade urbana.",
+    "endereco": "Rua da Mobilidade, 45 - Centro, Diadema - SP",
+    "telefone": "(11) 4057-8500",
+    "email": "transito@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 17h",
+    "bairro": "Centro",
+    "categoria_slug": "mobilidade",
+    "categoria_nome": "Mobilidade",
+    "subcategoria": "Trânsito",
+    "mapa_url": "https://maps.google.com/?q=Departamento+de+Tr%C3%A2nsito+Diadema",
+    "avaliacao": 4,
+    "fotos": [
+      "https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "terminal-diadema",
+    "nome": "Terminal Central de Ônibus",
+    "descricao": "Ponto de integração para linhas urbanas e atendimento à mobilidade da cidade.",
+    "endereco": "Av. Presidente Vargas, 900 - Centro, Diadema - SP",
+    "telefone": "(11) 4057-8600",
+    "email": "terminal@diadema.sp.gov.br",
+    "horario": "Todos os dias, 05h às 23h",
+    "bairro": "Centro",
+    "categoria_slug": "mobilidade",
+    "categoria_nome": "Mobilidade",
+    "subcategoria": "Terminal",
+    "mapa_url": "https://maps.google.com/?q=Terminal+Central+Diadema",
+    "avaliacao": 4.1,
+    "fotos": [
+      "https://images.unsplash.com/photo-1500520198921-6d4704f98092?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "procon-diadema",
+    "nome": "PROCON Diadema",
+    "descricao": "Orientação e defesa do consumidor com atendimento presencial e informativo.",
+    "endereco": "Rua Amélia Eugênia, 488 - Centro, Diadema - SP",
+    "telefone": "(11) 4057-7407",
+    "email": "procon@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 08h às 17h",
+    "bairro": "Centro",
+    "categoria_slug": "cidadao",
+    "categoria_nome": "Serviços ao Cidadão",
+    "subcategoria": "PROCON",
+    "mapa_url": "https://maps.google.com/?q=PROCON+Diadema",
+    "avaliacao": 4.5,
+    "fotos": [
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80"
+    ]
+  },
+  {
+    "id": "viva-mais-diadema",
+    "nome": "VIVA+ Diadema",
+    "descricao": "Atendimento de apoio social, inclusão e encaminhamentos para serviços públicos.",
+    "endereco": "Avenida Antônio Piranga, 700 - Centro, Diadema - SP",
+    "telefone": "(11) 4043-8095",
+    "email": "viva@diadema.sp.gov.br",
+    "horario": "Segunda a Sexta, 07h às 19h",
+    "bairro": "Centro",
+    "categoria_slug": "assistencia",
+    "categoria_nome": "Assistência Social",
+    "subcategoria": "Suporte Social",
+    "mapa_url": "https://maps.google.com/?q=VIVA%2B+Diadema",
+    "avaliacao": 4.4,
+    "fotos": [
+      "https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&q=80"
     ]
   }
 ]

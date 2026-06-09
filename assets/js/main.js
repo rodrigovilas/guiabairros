@@ -138,8 +138,8 @@ document.addEventListener('DOMContentLoaded', () => {
               <span>⏰ ${item.horario}</span>
             </div>
           </div>
-          <div style="margin-top:1rem;min-width:130px;text-align:right;">
-            <a href="detalhes.html?id=${item.id}" class="btn btn-primary" style="width:100%;">Ver Detalhes</a>
+          <div class="service-action">
+            <a href="detalhes.html?id=${item.id}" class="btn btn-primary">Ver Detalhes</a>
           </div>
         `;
         container.appendChild(card);
@@ -185,15 +185,28 @@ document.addEventListener('DOMContentLoaded', () => {
     setText('det-telefone',  item.telefone  || 'Não informado');
     setText('det-email',     item.email     || 'Não informado');
 
-    // Map button
+    // Map button and embedded map
     const mapaBtn = document.getElementById('det-mapa-btn');
+    const mapContainer = document.getElementById('det-map-container');
+    const mapQuery = item.endereco || item.nome + ' Diadema SP';
+
     if (mapaBtn) {
-      if (item.mapa_url) {
-        mapaBtn.href = item.mapa_url;
-      } else {
-        mapaBtn.href = 'https://maps.google.com/?q=' + encodeURIComponent(item.nome + ' Diadema SP');
-      }
+      mapaBtn.href = item.mapa_url || 'https://maps.google.com/?q=' + encodeURIComponent(mapQuery);
     }
+
+    if (mapContainer) {
+      mapContainer.innerHTML = `
+        <iframe
+          src="https://www.google.com/maps?q=${encodeURIComponent(mapQuery)}&output=embed"
+          title="Mapa do local"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen
+          style="width:100%;height:100%;border:0;display:block;">
+        </iframe>
+      `;
+    }
+
     setText('det-bairro-mapa', 'Bairro: ' + item.bairro);
 
     // Stars

@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd 'C:\\\\xampp\\\\htdocs\\\\guiadigital\\\\assets\\\\data'; node -e \"const fs=require\\('fs'\\);const data=JSON\\.parse\\(fs\\.readFileSync\\('servicos\\.json','utf8'\\)\\); console\\.log\\('array elements count', data\\.filter\\(x=>Array\\.isArray\\(x\\)\\)\\.length\\); console\\.log\\('index sample', data\\.findIndex\\(x=>Array\\.isArray\\(x\\)\\)\\); console\\.log\\('type at first array', typeof data\\[data\\.findIndex\\(x=>Array\\.isArray\\(x\\)\\)\\]\\);\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
